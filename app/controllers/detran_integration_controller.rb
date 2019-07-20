@@ -21,7 +21,7 @@ class DetranIntegrationController < ApplicationController
       page = page.forms.second.submit
       request_return[:status] = 200
       if page.body.include?("Nao consta pontuacao para esse condutor")
-        request_return[:message] = page.xpath('//*[@id="flashMessage"]').inner_text
+        request_return[:message] = page.xpath('//*[@class="app-servico"]/div').inner_text
       else
         request_return[:message] = page.body
       end

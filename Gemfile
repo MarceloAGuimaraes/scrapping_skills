@@ -12,7 +12,7 @@ gem 'puma', '~> 3.12.1'
 #Use nokogiri
 gem 'nokogiri'
 #Use mechanize as tool for scrap
-gem 'mechanize', '~> 2.7', '>= 2.7.5'
+gem 'mechanize', '~> 2.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker

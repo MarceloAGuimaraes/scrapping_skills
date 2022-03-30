@@ -8,7 +8,7 @@ gem 'rails', '~> 6.0.0.rc1'
 # Use mysql as the database for Active Record
 #gem 'mysql2', '>= 0.4.4'
 # Use Puma as the app server
-gem 'puma', '~> 3.12.1'
+gem 'puma', '~> 4.3.12'
 #Use nokogiri
 gem 'nokogiri'
 #Use mechanize as tool for scrap
